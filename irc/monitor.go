@@ -21,7 +21,7 @@ func (client *Client) alertMonitors() {
 	for _, mClient := range monitors {
 		// don't have to notify ourselves
 		if mClient != client {
-			mClient.SendFromClient("", client, nil, RPL_MONONLINE, mClient.nick, client.nickMaskString)
+			mClient.SendFromClient("", "", "", client, nil, RPL_MONONLINE, mClient.nick, client.nickMaskString)
 		}
 	}
 }
