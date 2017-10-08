@@ -19,18 +19,18 @@ Oragono is a fork of the [Ergonomadic](https://github.com/edmund-huber/ergonomad
 ## Features
 
 * UTF-8 nick and channel names with rfc7613 (PRECIS)
-* [yaml](http://yaml.org/) configuration
-* native TLS/SSL support
-* server password (`PASS` command)
-* an extensible privilege system for IRC operators
-* ident lookups for usernames
-* automated client connection limits
-* on-the-fly updating server config and TLS certificates (rehashing)
-* client accounts and SASL
-* passwords stored with [bcrypt](https://godoc.org/golang.org/x/crypto) (client account passwords also salted)
-* banning ips/nets and masks with `KLINE` and `DLINE`
+* [YAML](http://yaml.org/) configuration
+* Native TLS/SSL support
+* Server password (`PASS` command)
+* An extensible privilege system for IRC operators
+* Ident lookups for usernames
+* Automated client connection limits
+* On-the-fly updating server config and TLS certificates (rehashing)
+* Client accounts and SASL
+* Passwords stored with [bcrypt](https://godoc.org/golang.org/x/crypto) (client account passwords also salted)
+* Banning ips/nets and masks with `KLINE` and `DLINE`
 * [IRCv3 support](http://ircv3.net/software/servers.html)
-* a heavy focus on developing with [specifications](https://oragono.io/specs.html)
+* A heavy focus on developing with [specifications](https://oragono.io/specs.html)
 
 ## Installation
 
